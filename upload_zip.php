@@ -119,11 +119,10 @@ if (isset($_FILES['file'])) {
             font-weight: 900;
             font-size: 2em;
             letter-spacing: .5em;
-            text-shadow: 2px 2px 3px #555;
+            text-shadow: 2px 2px 3px #ccc;
             position: relative;
             cursor: pointer;
         }
-
         .submit::after {
             content: "";
             width: 100%;
@@ -143,7 +142,6 @@ if (isset($_FILES['file'])) {
         .input {
             cursor: pointer;
         }
-
         .submit:hover::after {
             transform: scale(1.3, 1.5);
             opacity: 0;
